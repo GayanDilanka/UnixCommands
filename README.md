@@ -2,7 +2,7 @@
 important Unix Commands
 
 #Update and install a YUM package
-sudo yum update 
+sudo yum update \
 #check if package is available
 sudo yum search docker 
 #Get version information:
