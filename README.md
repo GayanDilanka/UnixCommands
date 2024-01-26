@@ -15,3 +15,6 @@ grep -Rnw . -e 'ccttest'
 
 #find the matching files end with .tf and replace with new value \
 find . -type f -name "*.tf" -exec sed -i 's/mnd-owneremail/mnd-owner/g' {} 
+
+Keep a process running without consuming CPU
+tail -f /dev/null
